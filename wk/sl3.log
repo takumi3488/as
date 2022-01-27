@@ -1,0 +1,66 @@
+++++++++++++++ KANSAI CALCULATION PACKAGE ++++++++++++++++++
+
+=== Package Environmental Variables  ===
+
+-> KANSAI Package ... /Volumes/exHD/moritakumi/KANSAI12x/lapw
+-> Executable ... tapwmn
+-> overwrite executable ... yes
+-> Dir is ..
+-> check previous output file ...no
+-> Series prefix ... sl
+-> index of execution ... 3
+-> Series suffix ... .dat
+==========================================
+
+=== Generate Link package  ===
+temorary directory:/Users/Shared/moritakumi/as/wk
+ -> temporary file fort.20 was linked.
+ -> temporary file fort.22 was linked.
+ -> temporary file fort.24 was linked.
+ -> temporary file fort.25 was linked.
+ -> temporary file fort.40 was linked.
+ -> temporary file fort.61 was linked.
+ -> temporary file fort.62 was linked.
+==========================================
+
+=== Execution SCF calculation package  ===
+ Date:2022-01-24 14:30:02 +0900
+ Hostname:bern6
+
+check old data...
+-> fort.35  :(potential)...ok
+-> fort.30  :(charge density)...ok
+-> fort.1  :(crystal data)...ok
+
+execute scf calculation
+ -> copy executable tapwmn from /Volumes/exHD/moritakumi/KANSAI12x/lapw
+ file check for tapwmn ...ok
+tapwmn has done (time:22.17714 sec).
+
+copy calculation results...
+ ->../sl3pot.dat was generated from fort.35
+ ->../sl3chg.dat was generated from fort.30
+ ->../sl3dst.dat was generated from fort.16
+ ->../sl3eld.dat was generated from fort.28
+ ->../sl3esd.dat was generated from fort.29
+
+remove symbolic link to temporary files...
+ ->file:fort.20 was deleted.
+ ->file:fort.22 was deleted.
+ ->file:fort.24 was deleted.
+ ->file:fort.25 was deleted.
+ ->file:fort.40 was deleted.
+ ->file:fort.61 was deleted.
+ ->file:fort.62 was deleted.
+==========================================
+
+remove temporary file in /Users/Shared/moritakumi/as/wk
+ -> remove temporary file: fort.20
+ -> remove temporary file: fort.22
+ -> remove temporary file: fort.24
+ -> remove temporary file: fort.25
+ -> remove temporary file: fort.40
+ -> remove temporary file: fort.61
+ -> remove temporary file: fort.62
+==========================================
+

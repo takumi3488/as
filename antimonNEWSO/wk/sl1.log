@@ -1,0 +1,9 @@
+/Volumes/exHD/harima/antimonNEWSO/wk/tapwmn < /Volumes/exHD/harima/antimonNEWSO/wk/../sl1.dat > /Volumes/exHD/harima/antimonNEWSO/wk/../sl1.out
+(/Volumes/exHD/harima/M/endmessage tapwmn /Volumes/exHD/harima/antimonNEWSO/wk_sl1 bern8 harima > /dev/null ;\
+	cp fort.35 /Volumes/exHD/harima/antimonNEWSO/wk/../sl1pot.dat)
+cp fort.16 /Volumes/exHD/harima/antimonNEWSO/wk/../sl1dst.dat
+cp fort.28 /Volumes/exHD/harima/antimonNEWSO/wk/../sl1eld.dat
+(cp fort.29 /Volumes/exHD/harima/antimonNEWSO/wk/../sl1esd.dat;\
+	/bin/rm fort.22 fort.24 fort.25 fort.40 fort.61 fort.62;\
+	/Volumes/exHD/harima/bin/tmpclear)
+Working File tmp/fort.22 tmp/fort.24 tmp/fort.25 tmp/fort.40 tmp/fort.61 tmp/fort.62 removed!

@@ -1,0 +1,51 @@
+ === K POINTS === (NX,NY,NZ)=(  4  4  4) ===== NKP1=   33   NKP2=  192
+0 ========== ITER=  1 ===========================
+     FERMI-EN= -0.72092365  DOS=     0.00000  INT.DOS=   0.0000000000
+                               IA=  1   M=  0.000,   N= 30.422
+             TOTAL ENERGY =  -9035.40398360154     
+ IS,IA=  1  1 L= 0 0.00000 L= 1 0.00000 L= 2 0.00000 L= 3 0.00000
+                               IA=  1   M=  0.0000   N=  0.0000
+   CONVERGENCE TEST FOR ITER = 1 ==== R.M.S. OF POTENTIAL DEFFERENCE ====
+ IA=  1 (As)  IS= 1 : 0.25542D-02
+      MAX DIFF OF V*R = 0.16970D-01  AT R(301)= 0.101D+01 WHERE VR=-0.699D+01
+ AMIXCH=  0.100          AMIXMO=  0.100
+0 ========== ITER=  2 ===========================
+     FERMI-EN= -0.72080165  DOS=     0.00000  INT.DOS=   0.0000000000
+                               IA=  1   M=  0.000,   N= 30.376
+             TOTAL ENERGY =  -9035.37995879500     
+ IS,IA=  1  1 L= 0 0.00000 L= 1 0.00000 L= 2 0.00000 L= 3 0.00000
+                               IA=  1   M=  0.0000   N=  0.0000
+   CONVERGENCE TEST FOR ITER = 2 ==== R.M.S. OF POTENTIAL DEFFERENCE ====
+ IA=  1 (As)  IS= 1 : 0.39550D-03
+      MAX DIFF OF V*R = 0.59848D-02  AT R(327)= 0.221D+01 WHERE VR=-0.148D+01
+ AMIXCH=  0.100          AMIXMO=  0.100
+0 ========== ITER=  3 ===========================
+     FERMI-EN= -0.72070372  DOS=     0.00000  INT.DOS=   0.0000000000
+                               IA=  1   M=  0.000,   N= 30.349
+             TOTAL ENERGY =  -9035.36876361313     
+ IS,IA=  1  1 L= 0 0.00000 L= 1 0.00000 L= 2 0.00000 L= 3 0.00000
+                               IA=  1   M=  0.0000   N=  0.0000
+   CONVERGENCE TEST FOR ITER = 3 ==== R.M.S. OF POTENTIAL DEFFERENCE ====
+ IA=  1 (As)  IS= 1 : 0.12793D-02
+      MAX DIFF OF V*R = 0.15432D-01  AT R(327)= 0.221D+01 WHERE VR=-0.147D+01
+ AMIXCH=  0.100          AMIXMO=  0.100
+0 ========== ITER=  4 ===========================
+     FERMI-EN= -0.72060803  DOS=     0.00000  INT.DOS=   0.0000000000
+                               IA=  1   M=  0.000,   N= 30.336
+             TOTAL ENERGY =  -9035.36316209145     
+ IS,IA=  1  1 L= 0 0.00000 L= 1 0.00000 L= 2 0.00000 L= 3 0.00000
+                               IA=  1   M=  0.0000   N=  0.0000
+   CONVERGENCE TEST FOR ITER = 4 ==== R.M.S. OF POTENTIAL DEFFERENCE ====
+ IA=  1 (As)  IS= 1 : 0.17090D-02
+      MAX DIFF OF V*R = 0.19053D-01  AT R(327)= 0.221D+01 WHERE VR=-0.147D+01
+ AMIXCH=  0.100          AMIXMO=  0.100
+0 ========== ITER=  5 ===========================
+     FERMI-EN= -0.72050739  DOS=     0.00000  INT.DOS=   0.0000000000
+                               IA=  1   M=  0.000,   N= 30.330
+             TOTAL ENERGY =  -9035.35982278256     
+ IS,IA=  1  1 L= 0 0.00000 L= 1 0.00000 L= 2 0.00000 L= 3 0.00000
+                               IA=  1   M=  0.0000   N=  0.0000
+   CONVERGENCE TEST FOR ITER = 5 ==== R.M.S. OF POTENTIAL DEFFERENCE ====
+ IA=  1 (As)  IS= 1 : 0.17312D-02
+      MAX DIFF OF V*R = 0.19518D-01  AT R(327)= 0.221D+01 WHERE VR=-0.147D+01
+ AMIXCH=  0.100          AMIXMO=  0.100

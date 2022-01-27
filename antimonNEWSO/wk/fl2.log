@@ -1,0 +1,9 @@
+/Volumes/exHD/harima/antimonNEWSO/wk/tflapwmn < /Volumes/exHD/harima/antimonNEWSO/wk/../fl2.dat > /Volumes/exHD/harima/antimonNEWSO/wk/../fl2.out
+(/Volumes/exHD/harima/M/endmessage tflapwmn /Volumes/exHD/harima/antimonNEWSO/wk_fl2 bern8 harima > /dev/null;cp fort.45 /Volumes/exHD/harima/antimonNEWSO/wk/../fl2fpot.dat)
+cp fort.32 /Volumes/exHD/harima/antimonNEWSO/wk/../fl2fchg.dat
+cp fort.16 /Volumes/exHD/harima/antimonNEWSO/wk/../fl2dst.dat
+cp fort.28 /Volumes/exHD/harima/antimonNEWSO/wk/../fl2eld.dat
+(cp fort.29 /Volumes/exHD/harima/antimonNEWSO/wk/../fl2esd.dat;\
+	/bin/rm fort.20 fort.22 fort.24 fort.25 fort.26 fort.27 fort.40 fort.61 fort.62;\
+	/Volumes/exHD/harima/bin/tmpclear)
+Working File tmp/fort.20 tmp/fort.22 tmp/fort.25 tmp/fort.26 tmp/fort.27 tmp/fort.40 tmp/fort.46 tmp/fort.47 tmp/fort.61 tmp/fort.62 removed!

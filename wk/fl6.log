@@ -1,0 +1,72 @@
+++++++++++++++ KANSAI CALCULATION PACKAGE ++++++++++++++++++
+
+=== Package Environmental Variables  ===
+
+-> KANSAI Package ... /Volumes/exHD/moritakumi/KANSAI12x/flapw
+-> Executable ... tflapwmn
+-> overwrite executable ... yes
+-> Dir is ..
+-> check previous output file ...no
+-> Series prefix ... fl
+-> index of execution ... 6
+-> Series suffix ... .dat
+==========================================
+
+=== Generate Link package  ===
+temorary directory:/Users/Shared/moritakumi/as/wk
+ -> temporary file fort.20 was linked.
+ -> temporary file fort.22 was linked.
+ -> temporary file fort.24 was linked.
+ -> temporary file fort.25 was linked.
+ -> temporary file fort.26 was linked.
+ -> temporary file fort.27 was linked.
+ -> temporary file fort.40 was linked.
+ -> temporary file fort.61 was linked.
+ -> temporary file fort.62 was linked.
+==========================================
+
+=== Execution SCF calculation package  ===
+ Date:2022-01-26 06:12:09 +0900
+ Hostname:bern6
+
+check old data...
+-> fort.45  :(potential)...ok
+-> fort.32  :(charge density)...ok
+-> fort.1  :(crystal data)...ok
+
+execute scf calculation
+ -> copy executable tflapwmn from /Volumes/exHD/moritakumi/KANSAI12x/flapw
+ file check for tflapwmn ...ok
+tflapwmn has done (time:38536.106448 sec).
+
+copy calculation results...
+ ->../fl6fpot.dat was generated from fort.45
+ ->../fl6fchg.dat was generated from fort.32
+ ->../fl6dst.dat was generated from fort.16
+ ->../fl6eld.dat was generated from fort.28
+ ->../fl6esd.dat was generated from fort.29
+
+remove symbolic link to temporary files...
+ ->file:fort.20 was deleted.
+ ->file:fort.22 was deleted.
+ ->file:fort.24 was deleted.
+ ->file:fort.25 was deleted.
+ ->file:fort.26 was deleted.
+ ->file:fort.27 was deleted.
+ ->file:fort.40 was deleted.
+ ->file:fort.61 was deleted.
+ ->file:fort.62 was deleted.
+==========================================
+
+remove temporary file in /Users/Shared/moritakumi/as/wk
+ -> remove temporary file: fort.20
+ -> remove temporary file: fort.22
+ -> remove temporary file: fort.24
+ -> remove temporary file: fort.25
+ -> remove temporary file: fort.26
+ -> remove temporary file: fort.27
+ -> remove temporary file: fort.40
+ -> remove temporary file: fort.61
+ -> remove temporary file: fort.62
+==========================================
+

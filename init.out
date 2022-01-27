@@ -1,0 +1,146 @@
++++++++++++++++ Initial Charge Calculation ++++++++++++++++
+ 
+ Magnetic type:  para magnetic
+ 
+ ========== MUFFIN-TIN RADIUS ===============
+  RADIUS OF MUFFIN-TIN SPHERE=  2.21131(a.u.); 1st ATOM
+ ============================================
+      
+ LATTICE CONSTANTS ARE SET AS
+  A=  7.10348  B=  7.10348  C= 19.73101
+ CA=  0.00000 CB=  0.00000 CC= -0.50000
+---+---+---+--- Crystal Structure Data ---+---+---+---
+ 
+ =========== UNIT CELL INFOMATION ===========
+  A,B,C =   0.7103480E+01  0.7103480E+01  0.1973101E+02  (a.u.)
+ CA,CB,CC=  0.0000000E+00  0.0000000E+00 -0.5000000E+00
+ ============================================
+ 
+ Number of Kind of Atoms =     1
+ Number of Atoms =     2
+  -- atomic position data:
+    ---  1st atom ---
+    Atom No.=    1  (   0.0000000    0.0000000    0.2276400 )
+    Atom No.=    2  (   0.0000000    0.0000000    0.7723600 )
+ 
+
+  --- Neighbor atoms infomation ----
+  kind atom No.= 1 (from)
+    -> kind atom No.= 1 (to)
+        lengh=  0.6694  number of bond=  3
+        lengh=  0.8235  number of bond=  3
+        lengh=  1.0000  number of bond=  6
+        lengh=  1.0911  number of bond=  6
+        lengh=  1.2034  number of bond=  3
+
+  Evald sum: TMAD(I,J),  I= 1
+           3.8006682
+
+  --- infomation Lattice constant and volume( a-unit )----
+  Unit Cell volume =      0.8018395
+  Norm of A*       =      1.1547005
+
+  --- Radial Meshes infomation----
+  ATOM=    1,    R(1)= 0.123409804086680E-03    R( 327)= 0.221131332121952E+01
+
+  --- infomation Lattice constant and volume ---
+     a-lattice       =       7.10348 (bohr)
+     Unit of k-space =       1.02136 (bohr^-1)
+     Volume of primtive cell       =     287.40939 (bohr^3)
+     Volume of Interstitial Region =     196.82164 (bohr^3)  ( 68.481 %)
+ 
+               r-mesh     Radius of MT(bohr)      Volume of MT(bohr^3)     Area of MT    # of Atom
+     ATOM =  1    327              2.2113133     45.2938728( 15.759 %)      0.2138009       2.0
+
+
+ FA(P1,P2)                                                                                                    FO(P1)
+ P1                    P2=1,NKAT
+    1       -0.02311
++                                                                                                              -1.21652
+ 
+=================  Self-Consistent Atomic Calculation for As  =================
+ 
+MAGNETIC STATE = para magnetic
+ 
+INITIAL DATA
+          MESH= 421       RMAX=  60.00        PHI=  0.3000000
+             Z=  33.0     RINF=  75.00       EDEL=  0.0000050
+          XION=   0.0        H=  32.00       VDEL=  0.0001000
+           Max Iteration =  50
+ 
+ 
+CONVERGENCE TEST
+       CYCLET        PH      RLC     VERR(NERR)       SUME     ELECTRONS
+  1  0.00203(Sec.) 1.000000  1.8118 0.2758E+06(  1) -1227.4343  33.0000000
+  2  0.00147(Sec.) 0.650000 17.7360 0.1466E+03(  1) -1853.5387  32.9996142
+  3  0.00132(Sec.) 0.475000 13.3878 0.2446E+02( 91) -1335.3773  32.9998807
+  4  0.00090(Sec.) 0.387500  9.7947 0.2314E+01(103) -1336.4226  32.9999396
+  5  0.00080(Sec.) 0.343750  6.1294 0.5417E+00(275) -1324.6884  32.9999605
+  6  0.00076(Sec.) 0.321875  4.0831 0.2168E+00(276) -1320.5575  32.9999734
+  7  0.00071(Sec.) 0.310937  3.6033 0.1024E+00(276) -1318.7751  32.9999822
+  8  0.00061(Sec.) 0.305469  3.3850 0.4784E-01(275) -1318.0924  32.9999883
+  9  0.00061(Sec.) 0.302734  3.2808 0.3441E-01(104) -1317.8861  32.9999925
+ 10  0.00061(Sec.) 0.301367  3.2808 0.2428E-01(104) -1317.8590  32.9999943
+ 11  0.00058(Sec.) 0.300684  3.1799 0.1618E-01(105) -1317.8814  32.9999966
+ 12  0.00054(Sec.) 0.300342  3.1799 0.1054E-01(105) -1317.9101  32.9999981
+ 13  0.00054(Sec.) 0.300171  3.1799 0.6816E-02(105) -1317.9338  32.9999989
+ 14  0.00051(Sec.) 0.300085  3.1799 0.4402E-02(105) -1317.9508  32.9999993
+ 15  0.00048(Sec.) 0.300043  3.1799 0.2771E-02(105) -1317.9621  32.9999994
+ 16  0.00042(Sec.) 0.300021  3.1799 0.1845E-02(105) -1317.9699  32.9999994
+ 17  0.00039(Sec.) 0.300011  3.1799 0.1126E-02(105) -1317.9747  32.9999993
+ 18  0.00039(Sec.) 0.300005  3.1799 0.7792E-03(105) -1317.9780  32.9999993
+ 19  0.00039(Sec.) 0.300003  3.1799 0.5224E-03(105) -1317.9800  32.9999992
+ 20  0.00040(Sec.) 0.300001  3.1799 0.3588E-03(105) -1317.9814  32.9999991
+ 21  0.00039(Sec.) 0.300001  3.1799 0.2419E-03(105) -1317.9823  32.9999991
+ 22  0.00039(Sec.) 0.300000  3.1799 0.1653E-03(105) -1317.9829  32.9999991
+ 23  0.00039(Sec.) 0.300000  3.1799 0.1117E-03(105) -1317.9833  32.9999990
+ 24  0.00041(Sec.) 0.300000  3.1799 0.7603E-04(105) -1317.9835  32.9999990
+PROBLEM CONVERGED
+ 
+ 
+--- RESULT ---
+ 
+      ORBIT   ELECTRONS   ENERGY (Ry.)
+   1   1s        2.0000    -859.8551810
+   2   2s        2.0000    -109.2005495
+   3   2p        6.0000     -95.8678714
+   4   3s        2.0000     -14.0442352
+   5   3p        6.0000      -9.9217290
+   6   3d       10.0000      -3.1217066
+   7   4s        2.0000      -1.1707486
+   8   4p        3.0000      -0.4902942
+ 
+                        Total CPU time for S.C.F atomic Calc. =   0.016(Sec.) 
+ 
+=================== End of S.C.F. Atomic Calculation for As ================= 
+ 
+ RSATOM(i) < 1.0E-8: i=         404
+ TIME FOR STACHR     0.020(Sec.)
+ -------   CHARGE DENSITIES HAVE BEEN WRITTEN ON FILE(30).  ------
+ 
+ ----- NO. OF ELECTRONS INSIDE THE MUFFIN-TIN SPHERE -----
+ ELCOM,ELCO 0.279743E+02 0.279743E+02
+ EINM,EIN 0.308659E+02 0.308659E+02
+                                         M=  0.000         N= 30.866
+                                   Total M=  0.000   Total N= 61.732
+    As   ispin=  1   Core =         35915.8525588023         34299.4476931291         34250.1514167958
+                     Total=         35963.9648506473         34345.4832174769         34296.1236049667
+ ===== CHARGE DENSITY =====
+ AT NUCLEUS                    ON MUFFIN-TIN SPHERE
+ CORE           TOTAL          CORE           TOTAL
+     0.35916D+05    0.35964D+05    0.14826D-02    0.43040D-01
+ ===== SPIN DENSITY =====
+ AT NUCLEUS                    ON MUFFIN-TIN SPHERE
+ CORE           TOTAL          CORE           TOTAL
+     0.00000D+00    0.00000D+00    0.00000D+00    0.00000D+00
+  ===========     ==========     ========== 
+ 
+     QZE(iatom)         QE(iatom)          iatom=1,NKAT
+   0.213413E+01      0.311637E+01
+ VCOUT=   0.533702E+00     ROWAVE=   0.216860E-01
+      VEM(ispin)=  -0.669896E+00
+      VOM(ispin)=  -0.136195E+00
+                 ...... MUFFIN-TIN ZERO
+ VMT(ispin,iatom):          UP           DOWN          (POTENTIAL ON THE SPHERE)
+               As    -0.751812E+00
+ ----------  POTENTIALS HAVE BEEN WRITTEN ON FILE(35).  ------

@@ -1,0 +1,55 @@
+ === K POINTS === (NX,NY,NZ)=(  4  4  4) ===== NKP1=   33   NKP2=  192
+0 ========== ITER=  1 ===========================
+     FERMI-EN=  0.33224282  DOS=     0.10445  INT.DOS=  10.0000000000
+                               IA=  1   M=  0.000,   N= 30.957
+             TOTAL ENERGY =  -9033.88443679117     
+ IS,IA=  1  1 L= 0 1.43860 L= 1 1.48775 L= 2 0.04951 L= 3 0.00624
+                               IA=  1   M=  2.9830   N=  2.9830
+   CONVERGENCE TEST FOR ITER = 1 ==== R.M.S. OF POTENTIAL DEFFERENCE ====
+ IA=  1 (As)  IS= 1 : 0.25277D-02
+      MAX DIFF OF V*R = 0.18752D-01  AT R(304)= 0.111D+01 WHERE VR=-0.601D+01
+ AMIXCH=  0.100          AMIXMO=  0.100
+0 ========== ITER=  2 ===========================
+     FERMI-EN=  0.33227320  DOS=     0.10592  INT.DOS=  10.0000000000
+                               IA=  1   M=  0.000,   N= 30.955
+             TOTAL ENERGY =  -9033.88448051349     
+ IS,IA=  1  1 L= 0 1.43804 L= 1 1.48669 L= 2 0.04957 L= 3 0.00624
+                               IA=  1   M=  2.9814   N=  2.9814
+   CONVERGENCE TEST FOR ITER = 2 ==== R.M.S. OF POTENTIAL DEFFERENCE ====
+ IA=  1 (As)  IS= 1 : 0.21171D-02
+      MAX DIFF OF V*R = 0.15884D-01  AT R(304)= 0.111D+01 WHERE VR=-0.601D+01
+  MIXING PARAMETER 1 =  0.975539644163172       (RELAXATION ALGORITHM)
+  MIXING PARAMETER 1 =  0.200010000000000       (RESET)
+0 ========== ITER=  3 ===========================
+     FERMI-EN=  0.33230017  DOS=     0.10851  INT.DOS=  10.0000000000
+                               IA=  1   M=  0.000,   N= 30.952
+             TOTAL ENERGY =  -9033.88453289786     
+ IS,IA=  1  1 L= 0 1.43710 L= 1 1.48488 L= 2 0.04965 L= 3 0.00625
+                               IA=  1   M=  2.9787   N=  2.9787
+   CONVERGENCE TEST FOR ITER = 3 ==== R.M.S. OF POTENTIAL DEFFERENCE ====
+ IA=  1 (As)  IS= 1 : 0.14390D-02
+      MAX DIFF OF V*R = 0.11068D-01  AT R(304)= 0.111D+01 WHERE VR=-0.601D+01
+  MIXING PARAMETER 1 =  0.978182629291950       (RELAXATION ALGORITHM)
+  MIXING PARAMETER 1 =  0.200010000000000       (RESET)
+0 ========== ITER=  4 ===========================
+     FERMI-EN=  0.33227928  DOS=     0.11040  INT.DOS=  10.0000000000
+                               IA=  1   M=  0.000,   N= 30.950
+             TOTAL ENERGY =  -9033.88455527572     
+ IS,IA=  1  1 L= 0 1.43643 L= 1 1.48359 L= 2 0.04972 L= 3 0.00625
+                               IA=  1   M=  2.9768   N=  2.9768
+   CONVERGENCE TEST FOR ITER = 4 ==== R.M.S. OF POTENTIAL DEFFERENCE ====
+ IA=  1 (As)  IS= 1 : 0.99072D-03
+      MAX DIFF OF V*R = 0.77771D-02  AT R(304)= 0.111D+01 WHERE VR=-0.601D+01
+  MIXING PARAMETER 1 =  0.983229327663656       (RELAXATION ALGORITHM)
+  MIXING PARAMETER 1 =  0.200010000000000       (RESET)
+0 ========== ITER=  5 ===========================
+     FERMI-EN=  0.33223867  DOS=     0.11180  INT.DOS=  10.0000000000
+                               IA=  1   M=  0.000,   N= 30.949
+             TOTAL ENERGY =  -9033.88456512733     
+ IS,IA=  1  1 L= 0 1.43596 L= 1 1.48268 L= 2 0.04976 L= 3 0.00625
+                               IA=  1   M=  2.9755   N=  2.9755
+   CONVERGENCE TEST FOR ITER = 5 ==== R.M.S. OF POTENTIAL DEFFERENCE ====
+ IA=  1 (As)  IS= 1 : 0.68839D-03
+      MAX DIFF OF V*R = 0.55066D-02  AT R(305)= 0.114D+01 WHERE VR=-0.575D+01
+  MIXING PARAMETER 1 =  0.986579392645698       (RELAXATION ALGORITHM)
+  MIXING PARAMETER 1 =  0.200010000000000       (RESET)

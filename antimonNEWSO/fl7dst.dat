@@ -1,0 +1,43 @@
+  ***** WELCOME TO FLAPWL KANSAI-12  12/12/30  *****
+  === RELAXED CORE ===
+  FULL POTENTIAL DATA :  AMX0=     8.80000     LMAX0= 4
+  LAPW           DATA :  AMX =     4.40000     LMAX = 7
+  === EFG-OUT ON ===
+ === K POINTS === (NX,NY,NZ)=( 72 72 24) ===== NKP1=32449   NKP2=*****
+0 ========== ITER=  1 ===========================
+     FERMI-EN=  0.36241657  DOS=     1.52402  INT.DOS=  30.0000000000
+ CORE-OUT(ISPIN= 1)=      0.00068106(NUMBER)
+ CORE-OUT(ISPIN= 1)=      0.00000291(DENSITY)
+  ---- ET=  -25908.586849         DET=      -0.023936   ---
+ IS,IA=  1  1 L= 0 1.53371 L= 1 1.75597 L= 210.06044 L= 3 0.01932
+                               IA=  1   M= 13.3732   N= 13.3732
+ == R.M.S. OF DIFFERNCE BETWEEN OLD AND NEW ==
+ ISPIN= 1  WHOLE CELL  =   0.552428D-04
+           INTERSTITIAL=   0.409967D-04
+           ATOM(Sb* 2 )=   0.699743D-04
+0 ========== ITER=  2 ===========================
+     FERMI-EN=  0.36239902  DOS=     1.52399  INT.DOS=  30.0000000000
+ CORE-OUT(ISPIN= 1)=      0.00068105(NUMBER)
+ CORE-OUT(ISPIN= 1)=      0.00000291(DENSITY)
+  ---- ET=  -25908.587040         DET=      -0.007739   ---
+ IS,IA=  1  1 L= 0 1.53372 L= 1 1.75597 L= 210.06044 L= 3 0.01932
+                               IA=  1   M= 13.3732   N= 13.3732
+ == R.M.S. OF DIFFERNCE BETWEEN OLD AND NEW ==
+ ISPIN= 1  WHOLE CELL  =   0.160609D-04
+           INTERSTITIAL=   0.117543D-04
+           ATOM(Sb* 2 )=   0.204725D-04
+ A,D= -2.548764080457661E-007  6.290091096663069E-007
+ THETA=   -0.405203   BETA=    0.300000 FOR NEXT INPUT
+0 ========== ITER=  3 ===========================
+     FERMI-EN=  0.36239196  DOS=     1.52397  INT.DOS=  30.0000000000
+ CORE-OUT(ISPIN= 1)=      0.00068104(NUMBER)
+ CORE-OUT(ISPIN= 1)=      0.00000291(DENSITY)
+  ---- ET=  -25908.587069         DET=      -0.001331   ---
+ IS,IA=  1  1 L= 0 1.53372 L= 1 1.75597 L= 210.06044 L= 3 0.01932
+                               IA=  1   M= 13.3732   N= 13.3732
+ == R.M.S. OF DIFFERNCE BETWEEN OLD AND NEW ==
+ ISPIN= 1  WHOLE CELL  =   0.752013D-05
+           INTERSTITIAL=   0.744917D-05
+           ATOM(Sb* 2 )=   0.761455D-05
+ A,D= -2.220239744407562E-008  3.768680524845385E-008
+ THETA=   -0.589129   BETA=    0.300000 FOR NEXT INPUT

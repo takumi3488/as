@@ -1,0 +1,126 @@
+  ***** WELCOME TO FLAPWL KANSAI-12  12/12/30  *****
+  === RELAXED CORE ===
+  FULL POTENTIAL DATA :  AMX0=     8.35000     LMAX0= 4
+  LAPW           DATA :  AMX =     4.17604     LMAX = 7
+  === EFG-OUT ON ===
+ === K POINTS === (NX,NY,NZ)=(  4  4  4) ===== NKP1=   33   NKP2=  192
+0 ========== ITER=  1 ===========================
+     FERMI-EN= -0.80104095  DOS=     0.00000  INT.DOS=   0.0000000000
+ CORE-OUT(ISPIN= 1)=      3.83049516(NUMBER)
+ CORE-OUT(ISPIN= 1)=      0.01946176(DENSITY)
+ IS,IA=  1  1 L= 0 0.00000 L= 1 0.00000 L= 2 0.00000 L= 3 0.00000
+  ---- ET=   -9031.266392         DET=      -0.034575   ---
+ IS,IA=  1  1 L= 0 0.00000 L= 1 0.00000 L= 2 0.00000 L= 3 0.00000
+                               IA=  1   M=  0.0000   N=  0.0000
+ == R.M.S. OF DIFFERNCE BETWEEN OLD AND NEW ==
+ ISPIN= 1  WHOLE CELL  =   0.214796D-03
+           INTERSTITIAL=   0.198293D-03
+           ATOM(As* 2 )=   0.246878D-03
+0 ========== ITER=  2 ===========================
+     FERMI-EN= -0.80104831  DOS=     0.00000  INT.DOS=   0.0000000000
+ CORE-OUT(ISPIN= 1)=      3.82675276(NUMBER)
+ CORE-OUT(ISPIN= 1)=      0.01944274(DENSITY)
+ IS,IA=  1  1 L= 0 0.00000 L= 1 0.00000 L= 2 0.00000 L= 3 0.00000
+  ---- ET=   -9031.271357         DET=       0.010815   ---
+ IS,IA=  1  1 L= 0 0.00000 L= 1 0.00000 L= 2 0.00000 L= 3 0.00000
+                               IA=  1   M=  0.0000   N=  0.0000
+ == R.M.S. OF DIFFERNCE BETWEEN OLD AND NEW ==
+ ISPIN= 1  WHOLE CELL  =   0.130309D-03
+           INTERSTITIAL=   0.143671D-03
+           ATOM(As* 2 )=   0.950084D-04
+0 ========== ITER=  3 ===========================
+     FERMI-EN= -0.80104747  DOS=     0.00000  INT.DOS=   0.0000000000
+ CORE-OUT(ISPIN= 1)=      3.82677122(NUMBER)
+ CORE-OUT(ISPIN= 1)=      0.01944284(DENSITY)
+ IS,IA=  1  1 L= 0 0.00000 L= 1 0.00000 L= 2 0.00000 L= 3 0.00000
+  ---- ET=   -9031.271413         DET=       0.008633   ---
+ IS,IA=  1  1 L= 0 0.00000 L= 1 0.00000 L= 2 0.00000 L= 3 0.00000
+                               IA=  1   M=  0.0000   N=  0.0000
+ == R.M.S. OF DIFFERNCE BETWEEN OLD AND NEW ==
+ ISPIN= 1  WHOLE CELL  =   0.115304D-03
+           INTERSTITIAL=   0.127719D-03
+           ATOM(As* 2 )=   0.820918D-04
+0 ========== ITER=  4 ===========================
+     FERMI-EN= -0.80104691  DOS=     0.00000  INT.DOS=   0.0000000000
+ CORE-OUT(ISPIN= 1)=      3.82678634(NUMBER)
+ CORE-OUT(ISPIN= 1)=      0.01944291(DENSITY)
+ IS,IA=  1  1 L= 0 0.00000 L= 1 0.00000 L= 2 0.00000 L= 3 0.00000
+  ---- ET=   -9031.271461         DET=       0.006922   ---
+ IS,IA=  1  1 L= 0 0.00000 L= 1 0.00000 L= 2 0.00000 L= 3 0.00000
+                               IA=  1   M=  0.0000   N=  0.0000
+ == R.M.S. OF DIFFERNCE BETWEEN OLD AND NEW ==
+ ISPIN= 1  WHOLE CELL  =   0.102208D-03
+           INTERSTITIAL=   0.113650D-03
+           ATOM(As* 2 )=   0.712775D-04
+0 ========== ITER=  5 ===========================
+     FERMI-EN= -0.80104656  DOS=     0.00000  INT.DOS=   0.0000000000
+ CORE-OUT(ISPIN= 1)=      3.82679879(NUMBER)
+ CORE-OUT(ISPIN= 1)=      0.01944298(DENSITY)
+ IS,IA=  1  1 L= 0 0.00000 L= 1 0.00000 L= 2 0.00000 L= 3 0.00000
+  ---- ET=   -9031.271504         DET=       0.005579   ---
+ IS,IA=  1  1 L= 0 0.00000 L= 1 0.00000 L= 2 0.00000 L= 3 0.00000
+                               IA=  1   M=  0.0000   N=  0.0000
+ == R.M.S. OF DIFFERNCE BETWEEN OLD AND NEW ==
+ ISPIN= 1  WHOLE CELL  =   0.907382D-04
+           INTERSTITIAL=   0.101217D-03
+           ATOM(As* 2 )=   0.621551D-04
+0 ========== ITER=  6 ===========================
+     FERMI-EN= -0.80104638  DOS=     0.00000  INT.DOS=   0.0000000000
+ CORE-OUT(ISPIN= 1)=      3.82680905(NUMBER)
+ CORE-OUT(ISPIN= 1)=      0.01944303(DENSITY)
+ IS,IA=  1  1 L= 0 0.00000 L= 1 0.00000 L= 2 0.00000 L= 3 0.00000
+  ---- ET=   -9031.271542         DET=       0.004519   ---
+ IS,IA=  1  1 L= 0 0.00000 L= 1 0.00000 L= 2 0.00000 L= 3 0.00000
+                               IA=  1   M=  0.0000   N=  0.0000
+ == R.M.S. OF DIFFERNCE BETWEEN OLD AND NEW ==
+ ISPIN= 1  WHOLE CELL  =   0.806626D-04
+           INTERSTITIAL=   0.902144D-04
+           ATOM(As* 2 )=   0.544075D-04
+0 ========== ITER=  7 ===========================
+     FERMI-EN= -0.80104632  DOS=     0.00000  INT.DOS=   0.0000000000
+ CORE-OUT(ISPIN= 1)=      3.82681753(NUMBER)
+ CORE-OUT(ISPIN= 1)=      0.01944307(DENSITY)
+ IS,IA=  1  1 L= 0 0.00000 L= 1 0.00000 L= 2 0.00000 L= 3 0.00000
+  ---- ET=   -9031.271575         DET=       0.003680   ---
+ IS,IA=  1  1 L= 0 0.00000 L= 1 0.00000 L= 2 0.00000 L= 3 0.00000
+                               IA=  1   M=  0.0000   N=  0.0000
+ == R.M.S. OF DIFFERNCE BETWEEN OLD AND NEW ==
+ ISPIN= 1  WHOLE CELL  =   0.717891D-04
+           INTERSTITIAL=   0.804655D-04
+           ATOM(As* 2 )=   0.477856D-04
+0 ========== ITER=  8 ===========================
+     FERMI-EN= -0.80104635  DOS=     0.00000  INT.DOS=   0.0000000000
+ CORE-OUT(ISPIN= 1)=      3.82682456(NUMBER)
+ CORE-OUT(ISPIN= 1)=      0.01944311(DENSITY)
+ IS,IA=  1  1 L= 0 0.00000 L= 1 0.00000 L= 2 0.00000 L= 3 0.00000
+  ---- ET=   -9031.271604         DET=       0.003011   ---
+ IS,IA=  1  1 L= 0 0.00000 L= 1 0.00000 L= 2 0.00000 L= 3 0.00000
+                               IA=  1   M=  0.0000   N=  0.0000
+ == R.M.S. OF DIFFERNCE BETWEEN OLD AND NEW ==
+ ISPIN= 1  WHOLE CELL  =   0.639563D-04
+           INTERSTITIAL=   0.718160D-04
+           ATOM(As* 2 )=   0.420928D-04
+0 ========== ITER=  9 ===========================
+     FERMI-EN= -0.80104644  DOS=     0.00000  INT.DOS=   0.0000000000
+ CORE-OUT(ISPIN= 1)=      3.82683038(NUMBER)
+ CORE-OUT(ISPIN= 1)=      0.01944314(DENSITY)
+ IS,IA=  1  1 L= 0 0.00000 L= 1 0.00000 L= 2 0.00000 L= 3 0.00000
+  ---- ET=   -9031.271629         DET=       0.002477   ---
+ IS,IA=  1  1 L= 0 0.00000 L= 1 0.00000 L= 2 0.00000 L= 3 0.00000
+                               IA=  1   M=  0.0000   N=  0.0000
+ == R.M.S. OF DIFFERNCE BETWEEN OLD AND NEW ==
+ ISPIN= 1  WHOLE CELL  =   0.570302D-04
+           INTERSTITIAL=   0.641353D-04
+           ATOM(As* 2 )=   0.371747D-04
+0 ========== ITER= 10 ===========================
+     FERMI-EN= -0.80104493  DOS=     0.00000  INT.DOS=   0.0000000000
+ CORE-OUT(ISPIN= 1)=      3.82683521(NUMBER)
+ CORE-OUT(ISPIN= 1)=      0.01944316(DENSITY)
+ IS,IA=  1  1 L= 0 0.00000 L= 1 0.00000 L= 2 0.00000 L= 3 0.00000
+  ---- ET=   -9031.271652         DET=       0.002048   ---
+ IS,IA=  1  1 L= 0 0.00000 L= 1 0.00000 L= 2 0.00000 L= 3 0.00000
+                               IA=  1   M=  0.0000   N=  0.0000
+ == R.M.S. OF DIFFERNCE BETWEEN OLD AND NEW ==
+ ISPIN= 1  WHOLE CELL  =   0.508949D-04
+           INTERSTITIAL=   0.573073D-04
+           ATOM(As* 2 )=   0.329057D-04

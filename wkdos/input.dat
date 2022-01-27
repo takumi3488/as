@@ -1,0 +1,10 @@
+ 6 6 6
+BAND FROM TO
+ 1 9999
+NSPIN
+ 1
+NCOMP
+ 3
+ 1 As-s 1 1
+ 1 As-p 1 2
+ 1 As-d 1 3
