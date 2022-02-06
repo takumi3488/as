@@ -1,0 +1,4 @@
+#!/Volumes/exHD/funa/local/bin/python3
+from KansaiPackage.prp2cif.Prp2Cif import Prp2Cif
+ciffile = 'crystal.cif'
+Prp2Cif(ciffile)

@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+#
+#
+#
+home = ENV['HOME'] + '/'
+$LOAD_PATH.push(home + 'tools/module')
+require 'ParseCore'
+
+if ARGV.empty?
+  print "check_core [output]\n"
+  exit
+end
+
+filename = ARGV[0]
+
+ParseCore.new(filename).parse_core_state.parse_core_electrons

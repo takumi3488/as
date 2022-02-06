@@ -1,0 +1,13 @@
+#!/Volumes/exHD/funa/local/bin/python3
+import sys
+sys.path.append("/Volumes/exHD/funa/tools")
+from KansaiPackage.KSfiles.GenLapwInit import GenLapwInit
+from KansaiPackage.KSfiles.ParseInit2LapwConfig import ParseInit2LapwConfig
+import os
+home = os.environ['HOME'] + '/'
+
+configfile = home + 'init2lapw.conf'
+configure = ParseInit2LapwConfig(configfile).configure
+configure['prpdir'] = configure['prpdir']
+configure['initdir'] = configure['initdir']
+GenLapwInit(configure)

@@ -1,0 +1,65 @@
+#!/Volumes/exHD/funa/local/bin/ruby
+#
+# modifiled fwgo
+#   written by Hiroki Funashima, Kobe University
+#
+home = ENV['HOME'] + '/'
+#-------------------------------------------------
+#
+# your KANSAI package for FLAPW
+#
+
+#kansai = home + 'KANSAI/KANSAI12b/KANSAI12/flapw'
+#kansai = home + 'KANSAI/KANSAI11_noname'
+#kansai = home + '../harima/kansai12/flapw'
+kansai = home + 'KANSAI12x/flapw'
+
+
+#-------------------------------------------------
+
+
+$LOAD_PATH.push("#{home}/../funa/tools/module")
+require 'ExecuteSCF'
+index = '1'
+require 'CheckTmpFiles'
+require 'DisplayEnvs'
+require 'ResultMail'
+include ResultMail
+
+
+linkfiles = {
+  45 => 'fpot',
+  32 => 'fchg',
+  16 => 'dst',
+  28 => 'eld',
+  29 => 'esd'
+}
+
+previous_files = {
+  35 => 'potential(LAPW)',
+  30 => 'charge density(LAPW)',
+  1 => 'crystal data'
+}
+
+tmpfiles = [20, 22, 24, 25, 26, 27, 40, 61, 62]
+
+configure = {
+  kansai: kansai,
+  outcheck: true,
+  exec_overwrite: true,
+  executable: 'tflapw1mn',
+  index: index,
+  linkfiles: linkfiles,
+  dir: '..',
+  prefix: 'fw',
+  suffix: '.dat',
+  previous_files: previous_files,
+  tmpfiles: tmpfiles
+}
+
+DisplayEnvs.new(configure)
+tmp = CheckTmpFiles.new(configure)
+tmp.linking
+ExecuteSCF.new(configure)
+tmp.deleting
+send_result(configure)

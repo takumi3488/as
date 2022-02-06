@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+import argparse
+from KansaiPackage.WeightBand.PlotBand import PlotBand 
+parser = argparse.ArgumentParser(prog="Regenborgen",
+                                 usage="l weighted band",
+                                 add_help=True)
+
+parser.add_argument('filename',
+                    action='store',
+                    nargs='?',
+                    default='band.in')
+args =parser.parse_args()
+
+PlotBand(args.filename)

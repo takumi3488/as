@@ -1,0 +1,25 @@
+#!/Volumes/exHD/funa/local/bin/python3
+import sys
+sys.path.append("/Volumes/exHD/funa/tools")
+from KansaiPackage.KSfiles.GenFlapwInit import GenFlapwInit
+import os.path
+import sys
+
+"""Data convert lapw input file to flapw initial file.
+
+   Written by Hiroki Funashima, 19 Oct. in Kobe.
+
+"""
+
+argv = sys.argv
+if len(argv) < 2:
+    print("usage: lapw2flapw [lapw_inputfile]")
+    exit()
+else:
+    filename = argv[1]
+
+if os.path.isfile(filename):
+    GenFlapwInit(filename)
+else:
+    print("file:{} is not found.")
+    exit(1)
