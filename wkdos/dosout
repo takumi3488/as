@@ -1,8 +1,8 @@
 #!/bin/csh
-# mv fort.8 dos.dat && \
-# mv fort.7 dosdata7.dat && \
-ln -sf dos.dat fort.12 && \
-ln -sf format.dat fort.11 && \
-pdosplot && \
-pig2ps <~/bin/bandout.input && \
+mv fort.8 dos.dat
+mv fort.7 dosdata7.dat
+ln -sf dos.dat fort.12
+ln -sf format.dat fort.11
+pdosplot
+pig2ps <~/bin/bandout.input
 mv fort.50 dos.ai
