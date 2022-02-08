@@ -1,0 +1,73 @@
+#!/Volumes/exHD/funa/local/bin/ruby
+#
+# modifiled slgo
+#   written by Hiroki Funashima, Kobe University
+#
+home = ENV['HOME'] + '/'
+
+#-------------------------------------------------
+#
+# your KANSAI package for LAPW
+#
+
+#kansai = home + 'KANSAI/KANSAI12b/KANSAI12/lapw'
+#kansai = home + 'KANSAI/KANSAI11_noname'
+#kansai = home + '../harima/KANSAI12/lapw/'
+kansai = home + 'KANSAI12x/lapw/'
+
+
+#-------------------------------------------------
+
+
+$LOAD_PATH.push("#{home}/../funa/tools/module")
+
+require 'ExecuteSCF'
+require 'CheckTmpFiles'
+require 'DisplayEnvs'
+
+#if ARGV.size > 0
+#  index = ARGV[0]
+#else
+#  index = nil
+#end
+index = ''
+
+linkfiles = {
+  35 => 'pot',
+  30 => 'chg',
+  16 => 'dst',
+  28 => 'eld',
+  29 => 'esd'
+}
+
+previous_files = {
+  35 => 'potential',
+  30 => 'charge density',
+  1 => 'crystal data'
+}
+
+tmpfiles = [20, 22, 24, 25, 40, 61, 62]
+
+configure = {
+  kansai: kansai,
+  outcheck: true,
+  exec_overwrite: true,
+  executable: 'tapwem',
+  index: index,
+  linkfiles: linkfiles,
+  dir: '..',
+  prefix: 'el',
+  suffix: '.dat',
+  previous_files: previous_files,
+  tmpfiles: tmpfiles
+}
+
+#if index.nil?
+#  require 'GetInputFile'
+#  configure[:index] = GetInputFile.new(configure).index
+#end
+DisplayEnvs.new(configure)
+tmp = CheckTmpFiles.new(configure)
+tmp.linking
+ExecuteSCF.new(configure)
+tmp.deleting

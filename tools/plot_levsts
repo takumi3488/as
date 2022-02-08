@@ -1,0 +1,30 @@
+#!/Volumes/exHD/funa/local/bin/python3
+#
+# plot program for Logarithmic Derivative for KANSAI Pakage
+#
+#   written by Hiroki Funashima, 2001,2002,2003,2004,2005 Osaka University
+#   modified by Hiroki Funashima, 2016,Kobe University
+#    to rewrite for python3 style
+#
+#
+import sys
+import argparse # option
+
+from py_module.ParseFort1 import *
+from py_module.PlotLogDv import *
+from py_module.KsInputData import *
+from py_module.CheckNwindow import *
+
+parser = argparse.ArgumentParser(description='plot logarithmic derivative')
+parser.add_argument('filename', nargs='?')
+parser.add_argument('-m', '--magnetic', nargs='*')
+parser.add_argument('-i', '--iteration', nargs='?')
+parser.add_argument('-w', '--nwindow', nargs='*')
+args = parser.parse_args()
+if args.nwindow is None:
+    if CheckNwindow().nwin:
+        args.nwindow = True
+
+
+inputObj = KsInputData('logdrv.conf', args)
+PlotLogDv(inputObj).draw()

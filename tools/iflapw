@@ -1,0 +1,35 @@
+#!//Volumes/exHD/funa/local/bin/ruby
+#
+#
+home = ENV['HOME']
+$LOAD_PATH.push("#{home}/../funa/tools/module")
+require 'ExecSCFseries'
+
+if ARGV.empty?
+  print "Usage: iflapw iter_min [iter_max]\n"
+  exit
+end
+
+min_iter, max_iter = ARGV
+if min_iter == '0'
+  package = 'xfw1go'
+else
+  package = 'xflgo'
+  max_iter = min_iter if max_iter.nil?
+end
+
+configure = {
+  min_iter: min_iter,
+  max_iter: max_iter,
+  package: package
+}
+
+`xfw1go` unless File.exist?('fort.45')
+
+unless File.exist?('fort.45')
+  print "i cannot execute fw1go.\n"
+  print "please check your calculation.\n"
+  exit
+end
+
+ExecSCFseries.new(configure)

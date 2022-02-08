@@ -1,0 +1,23 @@
+#!/usr/bin/env python3
+#
+# -- job name --
+#
+#$ -N kflapw 
+#
+#  -- num of Procs ---
+#$ -pe fillup 9
+#
+#$ -V
+#$ -S /home/funashima/local/bin/python3
+#$ -cwd
+#$ -o minerva.out
+#$ -e minerva.err
+#
+#
+import sys
+from KansaiPackage.Minerva.Minerva import Minerva
+configfile = 'minerva.conf'
+if len(sys.argv) > 1:
+    sys.argv[1] == 'init'
+    configfile = 'init'
+Minerva(configfile)

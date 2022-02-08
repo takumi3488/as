@@ -1,0 +1,78 @@
+#!/Volumes/exHD/funa/local/bin/ruby
+#
+# modifiled flgoU
+#   written by Hiroki Funashima, Kobe University
+#
+
+home = ENV['HOME'] + '/'
+
+#-------------------------------------------------
+#
+# your KANSAI package for FLAPW
+#
+
+#kansai = home + 'KANSAI/KANSAI12b/KANSAI12/flapw'
+#kansai = home + 'KANSAI/KANSAI11_noname'
+#kansai = home + '../harima/kansai12/flapw'
+kansai = home + 'KANSAI12x/ujflapw'
+
+#-------------------------------------------------
+
+
+$LOAD_PATH.push("#{home}/../funa/opt/tools/module")
+
+require 'ExecuteSCF'
+require 'CheckTmpFiles'
+require 'DisplayEnvs'
+require 'ResultMail'
+include ResultMail
+
+if ARGV.size > 0
+  index = ARGV[0]
+else
+  index = nil
+end
+
+linkfiles = {
+  45 => 'fpot',
+  32 => 'fchg',
+  31 => 'dmtx',
+  33 => 'dmat',
+  16 => 'dst',
+  28 => 'eld',
+  29 => 'esd'
+}
+
+previous_files = {
+  45 => 'potential',
+  32 => 'charge density',
+  1 => 'crystal data'
+}
+
+tmpfiles = [19, 20, 22, 24, 25, 26, 27, 40, 61, 62]
+
+configure = {
+  kansai: kansai,
+  outcheck: true,
+  exec_overwrite: true,
+  executable: 'tflapwmn',
+  index: index,
+  linkfiles: linkfiles,
+  dir: '..',
+  prefix: 'fl',
+  suffix: '.dat',
+  previous_files: previous_files,
+  tmpfiles: tmpfiles
+}
+
+if index.nil?
+  require 'GetInputFile'
+  configure[:index] = GetInputFile.new(configure).index
+end
+
+DisplayEnvs.new(configure)
+tmp = CheckTmpFiles.new(configure)
+tmp.linking
+ExecuteSCF.new(configure)
+tmp.deleting
+send_result(configure)

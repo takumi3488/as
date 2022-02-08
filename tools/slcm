@@ -1,0 +1,62 @@
+#!/Volumes/exHD/funa/local/bin/ruby
+#
+# recover sl? data
+#   written by Hiroki Funashima
+#
+home = ENV['HOME']
+$LOAD_PATH.push("#{home}/../funa/opt/tools/module")
+require 'RecoverCalc'
+if ARGV.empty?
+  print "Usage: slcm [index]\n"
+  exit
+else
+  index = ARGV[0]
+end
+
+linkfiles = {
+  35 => 'pot',
+  30 => 'chg',
+  16 => 'dst',
+  28 => 'eld',
+  29 => 'esd'
+}
+
+tmpfiles = [20, 22, 24, 25, 40, 61, 62]
+
+configure = {
+  index: index,
+  linkfiles: linkfiles,
+  tmpfiles: tmpfiles,
+  dir: '..',
+  prefix: 'sl',
+  suffix: '.dat'
+}
+RecoverCalc.new(configure)
+next_out = '../sl' + (index.to_i + 1).to_s + '.out'
+next_in = '../sl' + (index.to_i + 1).to_s + '.dat'
+latest_in = '../sl' + index.to_i.to_s + '.dat'
+ARGV.shift
+if File.exist?(next_out)
+  print "\n"
+  print "i found next output #{next_out}.\n"
+  print "Do you hope to delete #{next_out}? [y/(n)]\n"
+  ans = gets
+  unless ans.nil?
+    if ans.chomp.strip.downcase =~ /^y/
+      FileUtils.rm(next_out)
+      print " -> #{next_out} has been deleted.\n"
+    end
+  end
+end
+if File.exist?(latest_in)
+  print "\n"
+  print "i found present input #{latest_in}.\n"
+  print "Do you hope to copy from #{latest_in} #{next_in}? [y/(n)]\n"
+  ans = gets
+  unless ans.nil?
+    if ans.chomp.strip.downcase =~ /^y/
+      FileUtils.cp(latest_in, next_in)
+      print " -> #{next_in} has been generated.\n"
+    end
+  end
+end

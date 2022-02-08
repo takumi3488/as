@@ -1,0 +1,22 @@
+#!/Volumes/exHD/funa/local/bin/python3
+#
+# front end of ayband written in Fortran
+#   written by Hiroki Funashima in kobe
+#
+from KansaiPackage.ayband.xAyband import xAyband
+import os.path
+import sys
+
+argv = sys.argv
+argc = len(argv)
+default_input = 'band.in'
+if argc < 2:
+    if os.path.isfile(default_input):
+        configfile = default_input
+        xAyband(configfile)
+    else:
+        print('usage: xayband [configure file]')
+        exit()
+else:
+    configfile = argv[1]
+    xAyband(configfile)
